@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'sell-icon';
-  src:  url('../fonts/sell-icon.eot?nhnige');
-  src:  url('../fonts/sell-icon.eot?nhnige#iefix') format('embedded-opentype'),
-    url('../fonts/sell-icon.ttf?nhnige') format('truetype'),
-    url('../fonts/sell-icon.woff?nhnige') format('woff'),
-    url('../fonts/sell-icon.svg?nhnige#sell-icon') format('svg');
+  src:  url('../fonts/sell-icon.eot?slymkz');
+  src:  url('../fonts/sell-icon.eot?slymkz#iefix') format('embedded-opentype'),
+    url('../fonts/sell-icon.ttf?slymkz') format('truetype'),
+    url('../fonts/sell-icon.woff?slymkz') format('woff'),
+    url('../fonts/sell-icon.svg?slymkz#sell-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,9 +24,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-students-cap:before {
+  content: "\e904";
+  color: #fbc05a;
+}
+.icon-circle:before {
+  content: "\e902";
+  color: #fbc05a;
+}
+.icon-close-envelope:before {
+  content: "\e903";
+  color: #fbc05a;
+}
 .icon-facebook:before {
   content: "\e900";
 }
 .icon-instagram:before {
   content: "\e901";
+}
+.icon-play:before {
+  content: "\e912";
 }
