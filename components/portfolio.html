@@ -9,12 +9,13 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <script src="../common/js/portfolio/portfolio.js"></script>
         <title>Min-Nan Liao</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="../common/img/logo.png"></a>
+                <img src="../common/img/logo.png">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,14 +37,84 @@
                 </div>
             </div>
         </nav>
-        <header class="jumbotron-fluid" id="header">
-            <div clss="container">
-                <img src="../common/img/maintain.png" width="100%">
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    
+                </div>
+        </div>
+        <div class="container" id="portfolio">
+            <div class="row card-columns" id="interaction">
+                <div class="col-md-6 col-lg-4" id="starpoint" onclick="starpoint()">
+                    <div class="card">
+                        <img class="card-img-top" src="../common/img/portfolio/starpoint/porfotlio_starpoint.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">星辰點<p>Star Point</p></h5>
+                            <!-- <p class="card-text">轉轉轉!創造出屬於自己的光芒屬於自己的星座</p> -->
+                            <cite>Interaction Design</cite>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6 col-lg-4" id="light" onclick="light()">
+                    <div class="card">
+                        <img class="card-img-top" src="../common/img/portfolio/lightbox/lightbox.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">錯視與空間互動燈箱<p>Illusion and Interactive space interaction light box</p></h5>
+                            <cite>Interaction Design</cite>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-md-6 col-lg-4" id="light" onclick="light()">
+                    <div class="card">
+                        <img class="card-img-top" src="../common/img/portfolio/lightbox/lightbox.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">錯視與空間互動燈箱<p>Illusion and Interactive space interaction light box</p></h5>
+                            <!-- <p class="card-text">轉轉轉!創造出屬於自己的光芒屬於自己的星座</p> -->
+                            <cite>Interaction Design</cite>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" id="idf" onclick="idf()">
+                    <div class="card">
+                        <img class="card-img-top" src="../common/img/portfolio/IDF/porfotlio_IDF.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">IDF互動導覽系統<p>IDF Interactive Navigation System</p></h5>
+                            <!-- <p class="card-text">轉轉轉!創造出屬於自己的光芒屬於自己的星座</p> -->
+                            <cite>Interaction Design</cite>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" id="toys" onclick="toys()">
+                    <div class="card">
+                        <img class="card-img-top" src="../common/img/portfolio/toys/porfotlio_oldtimttoys.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">古童玩<p>Old-Time Toys</p></h5>
+                            <!-- <p class="card-text">轉轉轉!創造出屬於自己的光芒屬於自己的星座</p> -->
+                            <cite>Interaction Design</cite>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" id="illusionchair" onclick="illusionchair()">
+                    <div class="card">
+                        <img class="card-img-top" src="../common/img/portfolio/illusionchair/porfotlio_illusionchair.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Illusion Chiar</h5>
+                            <!-- <p class="card-text">轉轉轉!創造出屬於自己的光芒屬於自己的星座</p> -->
+                            <cite>Interaction Design</cite>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" id="circle" onclick="circle()">
+                    <div class="card">
+                        <img class="card-img-top" src="../common/img/portfolio/circle/porfotlio_circle_edge.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">圓緣<p>Circle-Edge</p></h5>
+                            <!-- <p class="card-text">轉轉轉!創造出屬於自己的光芒屬於自己的星座</p> -->
+                            <cite>Lighting Design</cite>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </header>
-        <!-- <div class="" id="portfolio">
-        </div> -->
-
+        </div>
         <footer id="footer">
             <p>2018 © minnanliao</p>
             <a href="https://www.facebook.com/profile.php?id=100000232316560&ref=bookmarks" target="_blank">
