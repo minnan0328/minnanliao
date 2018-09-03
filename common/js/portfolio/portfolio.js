@@ -221,7 +221,7 @@ function illusionchair(){
                     '<img src="../common/img/portfolio/illusionchair/porfotlio_illusionchair_1.png">' +
                     '</div>' +
                     '<div class="col-sm-12 col-md-6">' +
-                    '<p>Illusion (point)線(line)面 (plane)構成(form)，一張生活常見的椅子結合藝' +
+                    '<p>Illusion Chiar 從點(point)線(line)面 (plane)構成(form)，一張生活常見的椅子結合藝' +
                         '術，形成一張錯覺椅子(illusion 面到3D立體，3D立體到 2D平面，' +
                         '利用壓克力製作連續性的結構之骨架，Chiar從點chiar)，2D平加上彎折的鐵線構成之表面，' +
                         '產生360度不同視角 的視覺變化。</p>' +
